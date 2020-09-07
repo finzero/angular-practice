@@ -1,0 +1,15 @@
+<form [formGroup] = "formDataDiri" (ngSubmit)="onSubmit()" >
+  Data Diri : 
+  <br>
+  <label>
+  Nama: <input type="text" formControlName="nama">
+  <br>
+  </label>
+
+  Alamat: <input type="text" formControlName="alamat">
+  <br>
+  Jenis Kelamin: <input type="text" formControlName="jenisKelamin">
+  <br>
+
+  <button class="btn btn-primary" type="submit" [disabled]='!formDataDiri.valid'>Save</button>
+</form>
