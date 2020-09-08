@@ -1,0 +1,13 @@
+{
+  "data": [
+    {
+      "nama": "John",
+      "alamat": "JL. abcdef no 20",
+      "jenisKelamin": "Laki2"
+    },{
+      "nama": "David",
+      "alamat": "JL. ghijklm no 99",
+      "jenisKelamin": "Laki2"
+    }
+  ]
+}
